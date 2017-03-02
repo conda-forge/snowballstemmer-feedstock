@@ -15,6 +15,18 @@ compiler translates a Snowball script into another language - currently
 ISO C, Java and Python are supported.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/snowballstemmer-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/snowballstemmer-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/snowballstemmer-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/snowballstemmer-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/snowballstemmer-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/snowballstemmer-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/snowballstemmer/badges/version.svg)](https://anaconda.org/conda-forge/snowballstemmer)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/snowballstemmer/badges/downloads.svg)](https://anaconda.org/conda-forge/snowballstemmer)
+
 Installing snowballstemmer
 ==========================
 
@@ -35,7 +47,6 @@ It is possible to list all of the versions of `snowballstemmer` available on you
 ```
 conda search snowballstemmer --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -71,18 +82,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/snowballstemmer-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/snowballstemmer-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/snowballstemmer-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/snowballstemmer-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/snowballstemmer-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/snowballstemmer-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/snowballstemmer/badges/version.svg)](https://anaconda.org/conda-forge/snowballstemmer)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/snowballstemmer/badges/downloads.svg)](https://anaconda.org/conda-forge/snowballstemmer)
 
 
 Updating snowballstemmer-feedstock
