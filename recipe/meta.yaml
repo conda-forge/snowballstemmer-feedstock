@@ -19,17 +19,17 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >= 2
   run:
-    - python
+    - python >= 2
 
 test:
   imports:
     - snowballstemmer
 
 about:
-  home: https://github.com/shibukawa/snowball_py
-  license: BSD-2-Clause
+  home: https://snowballstem.org/
+  license: BSD-3-Clause
   license_file: COPYING
   summary: Snowball stemming library collection for Python
   description: |
@@ -37,7 +37,7 @@ about:
     stemming algorithms for use in Information Retrieval. The Snowball
     compiler translates a Snowball script into another language - currently
     ISO C, Java and Python are supported.
-  dev_url: https://github.com/shibukawa/snowball_py
+  dev_url: https://github.com/snowballstem/snowball
 
 extra:
   recipe-maintainers:
