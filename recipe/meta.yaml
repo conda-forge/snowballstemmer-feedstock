@@ -1,5 +1,5 @@
-{% set version = "2.2.0" %}
-{% set sha256 = "09b16deb8547d3412ad7b590689584cd0fe25ec8db3be37788be3810cbf19cb1" %}
+{% set version = "3.0.0" %}
+{% set sha256 = "3b6fbff97e1629e9f4a0c8b45b56f3d2226ca8cd15d5b5024148e398e1ad0113" %}
 {% set pkg_name = "snowballstemmer" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ pkg_name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ pkg_name[0] }}/{{ pkg_name }}/{{ pkg_name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ pkg_name[0] }}/{{ pkg_name }}/{{ pkg_name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
