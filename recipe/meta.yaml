@@ -1,5 +1,5 @@
-{% set version = "3.1.0" %}
-{% set sha256 = "fd9e34526b23340cd23ffea6c9f9760974ecc2c2ac9e1d81401443ccdb2a801f" %}
+{% set version = "3.1.1" %}
+{% set sha256 = "e07bbc54a0d798fe6010a12398422e62a8bfbba95c394fd0956ef58cb4d3e260" %}
 {% set pkg_name = "snowballstemmer" %}
 
 package:
